@@ -52,7 +52,7 @@ Pada UNF, semua data masih dicatat dalam satu tabel dan dapat terdapat data yang
 
 | ID Transaksi | NIM | Nama Mahasiswa | Buku | Penerbit | Tanggal Pinjam | Tanggal Kembali |
 |---|---|---|---|---|---|---|
-| TR001 | H071001 | Nahdah | Basis Data, Jaringan Komputer | Informatika Press, Tech Media | 01-10-2026 | 08-10-2026 |
+| TR001 | H071001 | Nahdah | Basis Data, Jaringan Komputer | Unhas Press, Erlangga | 01-10-2026 | 08-10-2026 |
 
 Masalahnya adalah satu kolom dapat memiliki lebih dari satu nilai.
 
@@ -62,8 +62,8 @@ Pada 1NF, setiap kolom hanya memiliki satu nilai.
 
 | ID Transaksi | NIM | Nama Mahasiswa | Buku | Penerbit | Tanggal Pinjam | Tanggal Kembali |
 |---|---|---|---|---|---|---|
-| TR001 | H071001 | Andi | Basis Data | Informatika Press | 01-10-2026 | 08-10-2026 |
-| TR001 | H071001 | Andi | Jaringan Komputer | Tech Media | 01-10-2026 | 08-10-2026 |
+| TR001 | H071001 | Nahdah | Basis Data | Unhas Press | 01-10-2026 | 08-10-2026 |
+| TR001 | H071001 | Nahdah | Jaringan Komputer | Erlangga | 01-10-2026 | 08-10-2026 |
 
 ### 2NF
 
